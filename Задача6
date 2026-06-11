@@ -1,0 +1,7 @@
+a = input('Введите слово, чтобы проверить, является ли оно палиндромом, или нет: ')
+list_a = list(a)
+reversed_list = list_a[::-1]
+if list_a == reversed_list:
+    print('Да, палиндром')
+else:
+    print('Не палиндром')
