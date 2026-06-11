@@ -1,0 +1,5 @@
+prices = [1500, 500, 2000, 3500, 1000, 4500]
+print('Самый дорогой товар:' , max(prices))
+print('Самый дешёвый товар:' , min(prices))
+print('Общая стоимость всех товаров:' , sum(prices))
+print('Средняя стоимость товара из списка:' , round(sum(prices) / len(prices)))
