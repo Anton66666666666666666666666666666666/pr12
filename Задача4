@@ -1,0 +1,11 @@
+marks = [5, 4, 3, 5, 2, 5, 4, 3, 5, 5]
+pyat = 0
+dv = 0
+for el in marks:
+    if el % 5 == 0:
+        pyat += 1
+print('Количество пятёрок:' , pyat)
+for el in marks:
+    if el - 2 == 0:
+        dv += 1
+print('Количество двоек:' , dv)
