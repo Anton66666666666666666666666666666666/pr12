@@ -1,0 +1,9 @@
+users = ['Admin' , 'Guest' , 'User' , 'Bot']
+print('Список(по условию):' , users)
+users[2] = 'Moderator'
+print('Изменённый список1:' , users)
+users[-1] = 'SuperAdmin'
+print('Список с изменением2:' , users)
+users += ['Newbie']
+print('Список с изменением3:' , users)
+print('Итоговый список:' , *users)
